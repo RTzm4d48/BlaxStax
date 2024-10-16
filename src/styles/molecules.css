@@ -1,0 +1,6 @@
+.molecule_boxHeader {
+    background: red;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
