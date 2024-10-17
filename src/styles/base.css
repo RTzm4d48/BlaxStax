@@ -2,6 +2,7 @@
 @import url(organisms.css);
 @import url(templates.css);
 @import url(molecules.css);
+@import url(atoms.css);
 
 body {
     background: black;

@@ -9,3 +9,55 @@
         margin: -40px 0 0 0;
     }
 }
+
+
+/*RETOCAR ESO*/
+
+.template_contPart {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    .template_backgroundImage {
+        width: 100vw;
+        position: relative;
+        height: 100%;
+    }
+
+    @media (max-width: 1050px) {
+        .template_backgroundImage {
+            height: 100vh;
+            width: auto;
+        }
+    }
+    @media (max-width: 580px) {
+    }
+}
+
+.template_boxWhite {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #E6E9EF, #E6E9EB, #E6E9EF);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .template_cuadriculado {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#8686862f 1px, transparent 1px),
+                          linear-gradient(90deg, #8686862f 1px, transparent 1px);
+        background-size: 50px 50px;
+
+        .template_whiteGradient {
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle at center, transparent, #E6E9EF);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            display: flex;
+        }
+    }
+    
+}

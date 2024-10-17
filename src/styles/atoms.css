@@ -1,0 +1,36 @@
+.atom_blaxstaxImg{
+    display: flex;
+    background: #f0f1f5;
+    height: 230px;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+
+    background-image: radial-gradient(circle at center, transparent 45%, #41414123 70%);
+    background-size: 105% 105%;
+    background-position-x: -2px;
+    background-position-y: -2px;
+    background-repeat: no-repeat;
+ 
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 8px 4px 10px 0 #1113164d;
+
+    @media (max-width: 580px) {
+        margin: auto;
+    }
+}
+
+.atom_blaxstaxImg--two {
+    box-shadow: -8px -4px 10px 0 #ffffff9a;
+    display: flex;
+}
+.logo_blax_sise {
+    display: flex;
+    height: 100px;
+
+    @media (max-width: 1024px) {
+        height: 50px;
+    }
+}
