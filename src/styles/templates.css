@@ -1,5 +1,5 @@
 .template_cont {
-    background: red;
+    /*background: red;*/
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -34,6 +34,11 @@
     }
 }
 
+.fondo {
+    background: var(--color-blaxstax_two);
+
+}
+
 .template_boxWhite {
     width: 100%;
     height: 100%;
@@ -59,5 +64,27 @@
             display: flex;
         }
     }
-    
+}
+
+
+.template_cont_expert {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--color-blaxstax_two);
+    /*background: green;*/
+
+    & h1 {
+        color: white;
+        margin: auto auto 20px auto;
+        font-family: var(--font-roboto_blod);
+        font-size: 60px;
+        text-align: center;
+        width: 80%;
+
+        @media (max-width: 580px) {
+            font-size: 30px;
+            width: 90%;
+        }
+    }
 }

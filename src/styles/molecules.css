@@ -1,9 +1,15 @@
 .molecule_boxHeader {
-    /*background: red;*/
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     & p {
         /*color: blue;*/
@@ -51,3 +57,55 @@
         }
 
     }
+}
+
+.molecule_box_expert {
+    margin: 40px auto auto auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+    & section {
+        width: calc((100% / 4) - 60px - 22px);
+        height: 170px;
+        background: #3e4653;
+        border: 1px solid #d4d4d445;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+
+        & span {
+            display: flex;
+            margin: 10px 0px;
+        }
+
+        & h3 {
+            white-space: pre-line;
+        }
+        
+        & article {
+            display: flex;
+            margin: auto auto 0px 0px;
+            cursor: pointer;
+
+            & span {
+            margin: 2px 0px 0px 5px;
+            transition-duration: 0.3s;
+            }
+
+            &:hover {
+                opacity: 80%;
+
+                & span {
+                    margin: 2px 0px 0px 8px;
+                    }
+            }
+        }
+        @media (max-width: 1050px) {
+            width: calc((100% / 2) - 60px - 22px);
+            margin: 10px;
+        }
+    }
+}

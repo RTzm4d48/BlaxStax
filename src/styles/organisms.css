@@ -1,5 +1,4 @@
 .organims_navbar {
-    background: green;
     height: 40px;
     display: flex;
     /*opacity: 0.5;*/
@@ -9,7 +8,7 @@
     top: 0; /*IMPORTANTE*/
     z-index: 1;
 
-    background: linear-gradient(135deg, black, black);
+    background: linear-gradient(135deg, rgba(44, 62, 80,0.7), rgba(44, 62, 80, 0.5));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -17,9 +16,33 @@
         height: 100%;
         width: 60%;
         margin: 0 auto;
-        /*background: yellow;*/
         display: flex;
         justify-content: space-between;
+
+        & ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            & li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*margin: 0 20px*/
+            }
+
+            .nav-contact {
+                background: #5d6d7e;
+                padding: 5px;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+
+                &:hover {
+                    background: #85929e;
+                }
+            }
+        }
 
         & svg {
             /*background: red;*/
@@ -33,7 +56,6 @@
 }
 
 .organims_secondCont {
-    background: blue;
     width: 100%;
     margin: 0 auto;
     height: 100vh;

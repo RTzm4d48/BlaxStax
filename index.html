@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="static/svg/home.svg">
 </head>
 <body>
-<!-- TODO: ========BLOCK-1======== -->
    <div class="template_cont">
        <div class="organims_navbar">
            <div class="contNavbar">
-                <ul id="molecule_itemsNav">
+                <ul>
                     <li>
                         <a href="/">
                             <logo-blaxstax
@@ -22,15 +21,16 @@
                             ></logo-blaxstax>
                         </a>
                     </li>
-                    <li><p id="id_nav-research" href="">Contacto</p></li>
+                    <li><p id="id_nav-contac" class="nav-contact" href="">Contacto</p></li>
                 </ul>
            </div>
        </div>
+       <!--TODO: ========BLOCK-1======== -->
        <div class="organims_secondCont firstCont">
             <div class="molecule_boxHeader">
-                <section>
+                <section class="text">
                     <svg width="400">
-                      <use xlink:href="#icon_creativeSolution"></use>
+                      <use xlink:href="static/svg/home.svg#icon_creativeSolution"></use>
                     </svg>
                     <p>Software hecho a medida, Elevando tu negocio
                     al siguiente nivel digital.</p>
@@ -40,40 +40,105 @@
                 </section>
             </div>
        </div>
-<!-- TODO: ========BLOCK-2======== -->
-<div class="template_contPart">
-    <div class="template_boxWhite">
-        <div class="template_cuadriculado">
-            <div class="template_whiteGradient">
-                <div class="molecule_aboutUS">
-                    <h1>¿Quienes Somos?</h1>
-                    <span class="molecule_imgText">
-                        <span class="atom_blaxstaxImg">
-                            <span class="atom_blaxstaxImg atom_blaxstaxImg--two">
-                                <section class="logo_blax_sise">
-                                    <section class="logo_blax_sise">
-                                        <logo-blaxstax
-                                        color_logo="c1"
-                                        altura="100%"
-                                        item_text="false"
-                                        ></logo-blaxstax>
-                                    </section>
-                                </section>
+
+        <!--TODO: ========BLOCK-2======== -->
+        <div class="template_contPart">
+            <div class="template_boxWhite">
+                <div class="template_cuadriculado">
+                    <div class="template_whiteGradient">
+                        <div class="molecule_aboutUS">
+                            <h1>¿Quienes Somos?</h1>
+                            <span class="molecule_imgText">
+                                <span class="atom_blaxstaxImg">
+                                    <span class="atom_blaxstaxImg atom_blaxstaxImg--two">
+                                        <section class="logo_blax_sise">
+                                            <section class="logo_blax_sise">
+                                                <logo-blaxstax
+                                                color_logo="c1"
+                                                altura="100%"
+                                                item_text="false"
+                                                ></logo-blaxstax>
+                                            </section>
+                                        </section>
+                                    </span>
+                                </span>
+                                <p>Nuestro trabajo en BlaxStax se centra en el desarrollo de sitios web de primera categoría para empresas, impulsado por nuestro equipo altamente especializado y nuestro compromiso con la exelencia tecnológica.</p>
                             </span>
-                        </span>
-                        <p>Nuestro trabajo en BlaxStax se centra en el desarrollo de sitios web de primera categoría para empresas, impulsado por nuestro equipo altamente especializado y nuestro compromiso con la exelencia tecnológica.</p>
-                    </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-       <div class="organims_secondCont">
-            
-           <p>dsdsdsds</p>
-           <h1>Hola BlaxStax</h1>
-       </div>
+        <!--TODO: ========BLOCK-3======== -->
+        <div class="template_contPart fondo">
+            <div class="style_RES_CONT template_cont_expert">
+                <h1>Expertos en desarrollo web y análisis de datos.</h1>
+                <div class="molecule_box_expert">
+                    <section>
+                        <span style="height: 50px; display: flex;">
+                            <icon-bloxtree_1
+                            size="50px"
+                            ></icon-bloxtree_1>
+                        </span>
+                        <h3>Strategic
+                            Design</h3>
+                        <article>
+                            <p>Ver más</p>
+                            <span>
+                                <icon-bloxtree_line size="10px"></icon-bloxtree_line>
+                            </span>
+                        </article>
+                    </section>
+                    <section>
+                        <span>
+                            <icon-bloxtree_2
+                            size="50px"
+                            ></icon-bloxtree_2>
+                        </span>
+                        <h3>Target
+                            Customer</h3>
+                        <article>
+                            <p>Ver más</p>
+                            <span>
+                                <icon-bloxtree_line size="10px"></icon-bloxtree_line>
+                            </span>
+                        </article>
+                    </section>
+                    <section>
+                        <span>
+                            <icon-bloxtree_3
+                            size="50px"
+                            ></icon-bloxtree_3>
+                        </span>
+                        <h3>Web Site
+                            Development</h3>
+                        <article>
+                            <p>Ver más</p>
+                            <span>
+                                <icon-bloxtree_line size="10px"></icon-bloxtree_line>
+                            </span>
+                        </article>
+                    </section>
+                    <section>
+                        <span>
+                            <icon-bloxtree_4
+                            size="50px"
+                            ></icon-bloxtree_4>
+                        </span>
+                        <h3>Database
+                            Expert</h3>
+                        <article>
+                            <p>Ver más</p>
+                            <span>
+                                <icon-bloxtree_line size="10px"></icon-bloxtree_line>
+                            </span>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
    </div>
 </body>
-<script type="module" src="/src/main.js"></script>
+<!--<script type="module" src="/src/main.js"></script>-->
+<script type="module" src="/src/components/lit-element/index/svg_components.js"></script>
 </html>

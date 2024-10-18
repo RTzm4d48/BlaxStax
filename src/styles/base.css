@@ -64,6 +64,21 @@ body {
     --color-blaxstax_two: #2b313a;
     --colot-blaxstax_tree: #1e2229;
 
+
+
+    --bg-salmon: salmon;
+    --bg-black-05 : #00000091;
+    --bg-black-1 : #00000056;
+    --bg-black: black;
+    --bg-white: #fff;
+
+    /* COLOR DE TEXTO */
+    --color-white: #fff;
+    --color-blaxstax: #f3d048;
+    --color-blaxstax_two: #2b313a;
+    --colot-blaxstax_tree: #1e2229;
+    --color-text_border: #1e22294b;
+
     /* ESTILOS DE FUENTES */
     --font-roboto_blod: 'myfont_robot_bold';
     --font-roboto_normal: 'myfont_robot_normal';
@@ -118,7 +133,6 @@ h6 { font-size: 0.67em; }
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background: var(--color_background_2);
 
     @media (max-width: 1050px) {
         & {
